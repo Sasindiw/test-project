@@ -3554,6 +3554,7 @@ __metadata:
     "@testing-library/react": "npm:^15.0.6"
     "@testing-library/user-event": "npm:^14.5.2"
     "@types/jest": "npm:^29.5.12"
+    "@types/jsbarcode": "npm:^3.11.4"
     "@types/react": "npm:^18.2.14"
     "@types/react-dom": "npm:^18.2.6"
     "@types/react-router": "npm:^5.1.20"
@@ -3576,6 +3577,7 @@ __metadata:
     jest: "npm:^29.7.0"
     jest-cli: "npm:^29.7.0"
     jest-environment-jsdom: "npm:^29.7.0"
+    jsbarcode: "npm:^3.12.1"
     lint-staged: "npm:^15.2.2"
     lodash-es: "npm:^4.17.21"
     openmrs: "npm:next"
@@ -3586,6 +3588,7 @@ __metadata:
     react-router-dom: "npm:^6.14.1"
     rxjs: "npm:^6.6.7"
     swc-loader: "npm:^0.2.3"
+    sweetalert2: "npm:^11.22.3"
     turbo: "npm:^2.5.2"
     typescript: "npm:^4.9.5"
     webpack: "npm:^5.99.9"
@@ -6564,6 +6567,15 @@ __metadata:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
   checksum: 10/59ec7a9c4688aae8ee529316c43853468b6034f453d08a2e1064b281af9c81234cec986be796288f1bbb29efe943bc950e70c8fa8faae1e460d50e3cf9760f9b
+  languageName: node
+  linkType: hard
+
+"@types/jsbarcode@npm:^3.11.4":
+  version: 3.11.4
+  resolution: "@types/jsbarcode@npm:3.11.4"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10/34e3464e4768ce072ce4b63652a4c068e5cd6b099951d4eb306fdcf127e732f115701be63fbfa08c0e93ab250dcfad0acb554986a71b756553acc8be3ac2e2eb
   languageName: node
   linkType: hard
 
@@ -13574,6 +13586,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsbarcode@npm:^3.12.1":
+  version: 3.12.1
+  resolution: "jsbarcode@npm:3.12.1"
+  checksum: 10/3b6afa16ee4c49f98fde118d1410c2e4627ca7160407e7d36609a677093e62425c808ee263a09e6184e555641989cb13e6fbdb9ec2e2d77d32e0d1fc479b9c86
+  languageName: node
+  linkType: hard
+
 "jsbn@npm:1.1.0":
   version: 1.1.0
   resolution: "jsbn@npm:1.1.0"
@@ -18434,6 +18453,13 @@ __metadata:
     "@swc/core": ^1.2.147
     webpack: ">=2"
   checksum: 10/fe90948c02a51bb8ffcff1ce3590e01dc12860b0bb7c9e22052b14fa846ed437781ae265614a5e14344bea22001108780f00a6e350e28c0b3499bc4cd11335fb
+  languageName: node
+  linkType: hard
+
+"sweetalert2@npm:^11.22.3":
+  version: 11.22.3
+  resolution: "sweetalert2@npm:11.22.3"
+  checksum: 10/f0fc945b84a8c282dee3c3f0c12afcf3c41e2c94653deab7c8f401906f947c341e72d44b31589f8f9e620687a56ef04393d87200d19809836a540724fba5659e
   languageName: node
   linkType: hard
 

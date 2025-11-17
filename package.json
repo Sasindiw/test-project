@@ -1,9 +1,9 @@
 {
-  "name": "@openmrs/esm-template-app",
+  "name": "@slitnpm/patient-registration-app",
   "version": "4.0.0",
   "license": "MPL-2.0",
   "description": "An OpenMRS seed application for building microfrontends",
-  "browser": "dist/openmrs-esm-template-app.js",
+  "browser": "dist/patient-registration-app.js",
   "main": "src/index.ts",
   "source": true,
   "scripts": {
@@ -46,7 +46,7 @@
     "sweetalert2": "^11.22.3"
   },
   "peerDependencies": {
-    "@openmrs/esm-framework": "*",
+    "@openmrs/esm-framework": "8.0.0",
     "dayjs": "1.x",
     "react": "18.x",
     "react-i18next": "11.x",
@@ -54,7 +54,7 @@
     "rxjs": "6.x"
   },
   "devDependencies": {
-    "@openmrs/esm-framework": "next",
+    "@openmrs/esm-framework": "8.0.0",
     "@openmrs/esm-styleguide": "next",
     "@playwright/test": "^1.52.0",
     "@swc/cli": "^0.3.12",
